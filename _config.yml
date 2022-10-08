@@ -1,0 +1,19 @@
+title: Tomatoland
+author: noname0921
+email: secret
+description: >-
+  A super tomato!
+baseurl: "/noname0921" # the subpath of your site, e.g. /blog
+url: "https://noname0921.github.io" # your site's origin, e.g. https://forestry.io
+
+# Build settings
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default" # this ensures all content renders with layouts/default.html
+
+plugins:
+  - jekyll-feed
+  - jekyll-menus
+
